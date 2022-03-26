@@ -1,0 +1,23 @@
+.sideChat {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.sideChat:hover {
+  background-color: #3e93fd;
+  color: white;
+}
+.sideChat_info {
+  margin-left: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.sideChat_info > small {
+  position: absolute;
+  top: 4px;
+  right: 0;
+}
