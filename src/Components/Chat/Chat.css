@@ -22,3 +22,29 @@
 .chat_name {
   color: black;
 }
+
+.chat_input {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.chat_input > form {
+  flex: 1;
+}
+
+.chat_input > form > input {
+  width: 98%;
+  outline-width: 0;
+  padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+
+.chat_input > form > button {
+  display: none;
+}
+
+.chat_message {
+  flex: 1;
+}
